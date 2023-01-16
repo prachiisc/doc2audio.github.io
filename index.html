@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos."> -->
+  <!-- <meta name="keywords" content="Nerfies, D-NeRF, NeRF"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audio Retrieval For Multimodal Design Documents: A New Dataset And Algorithms </title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <!-- <link rel="stylesheet" href="./static/css/bulma-carousel.min.css"> -->
+  <!-- <link rel="stylesheet" href="./static/css/bulma-slider.min.css"> -->
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <!-- <script src="./static/js/bulma-carousel.min.js"></script> -->
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    div.relative {
+      border: 3px solid #000000;
+    }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Audio Retrieval For Multimodal Design Documents: A New Dataset And Algorithms</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="">Prachi Singh</a><sup>1,2</span>
+            <span class="author-block">
+              <a href="">Srikrishna Karanam</a><sup>1</span>
+            <span class="author-block">
+              <a href="">Sumit Shekhar</a><sup>1</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup> Adobe Research</span>
+            <span class="author-block"><sup>2</sup> Indian Institute of Science</span>
+          </div>
+          <br>
+          <h3 style="font-size:25px;font-weight:bold">ICASSP 2023</h3>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <svg class="svg-inline--fa fa-file-pdf fa-w-12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg><!-- <i class="fas fa-file-pdf"></i> Font Awesome fontawesome.com -->
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              
+              <!-- Supplementary material Link. -->
+              <span class="link-block">
+                <a href="https://github.com/prachiisc/MELON-multimodal-dataset/blob/main/MELON_supplementary.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <svg class="svg-inline--fa fa-file-pdf fa-w-12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg><!-- <i class="fas fa-file-pdf"></i> Font Awesome fontawesome.com -->
+                  </span>
+                  <span>Supplementary material</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark" disabled="">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://drive.google.com/file/d/1NFcASmGy9s5mGVWu7qnVAdfgB3BbsS0l/view"
+                   class="external-link button is-normal is-rounded is-dark" disabled="">
+                  <span class="icon">
+                    <svg class="svg-inline--fa fa-database fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="database" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 73.143v45.714C448 159.143 347.667 192 224 192S0 159.143 0 118.857V73.143C0 32.857 100.333 0 224 0s224 32.857 224 73.143zM448 176v102.857C448 319.143 347.667 352 224 352S0 319.143 0 278.857V176c48.125 33.143 136.208 48.572 224 48.572S399.874 209.143 448 176zm0 160v102.857C448 479.143 347.667 512 224 512S0 479.143 0 438.857V336c48.125 33.143 136.208 48.572 224 48.572S399.874 369.143 448 336z"></path></svg><!-- <i class="fas fa-database"></i> Font Awesome fontawesome.com -->
+                  </span>
+                  <span>Dataset</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="hero teaser">
+  <div class="hero-body">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <video poster="" id="teaser" autoplay="" muted="" loop="" height="100%">
+          <source src="./data/videos/teaser_new_1.mp4" type="video/mp4">
+        </video>
+      </br>
+    </br>
+        <h2 class="subtitle has-text-centered">
+          Our method automatically turns a single image with arrow directions and mask into an animated video.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container is-centered">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <!-- <ol class="carousel-indicators" style="transform: translate3d(0px, 40px, 0px);">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <!-- <div class="carousel-inner">
+    <div class="item active">
+      <video poster="" id="steve" autoplay controls muted loop width="1536px">
+        <source src="./data/videos/1.mp4"
+                type="video/mp4">
+      </video>
+      <video poster="" id="steve" autoplay controls muted loop width="1536px">
+        <source src="./data/videos/5.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+    <div class="item">
+      <video poster="" id="steve" autoplay controls muted loop width="1536px">
+        <source src="./data/videos/10.mp4"
+                type="video/mp4">
+      </video>
+      <video poster="" id="steve" autoplay controls muted loop width="1536px">
+        <source src="./data/videos/9.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+    <div class="item">
+      <video poster="" id="chair-tp" autoplay controls muted loop width="1536px">
+        <source src="./data/videos/2.mp4"
+                type="video/mp4">
+      </video>
+      <video poster="" id="steve" autoplay controls muted loop width="1536px">
+        <source src="./data/videos/6.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+    <div class="item">
+      <video poster="" id="shiba" autoplay controls muted loop width="1536px">
+        <source src="./data/videos/3.mp4"
+                type="video/mp4">
+      </video>
+      <video poster="" id="steve" autoplay controls muted loop width="1536px">
+        <source src="./data/videos/7.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+    <div class="item">
+      <video poster="" id="fullbody" autoplay controls muted loop width="1536px">
+        <source src="./data/videos/4.mp4"
+                type="video/mp4">
+      </video>
+      <video poster="" id="steve" autoplay controls muted loop width="1536px">
+        <source src="./data/videos/8.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev"style="transform: translate3d(-1000px, 0px, 0px);">
+    <span class="glyphicon glyphicon-chevron-left" style="transform: translate3d(800px, 0px, 0px);">
+    <span class="sr-only">Previous</span>
+ </a> -->
+  <!-- <a class="right carousel-control" href="#myCarousel" data-slide="next" style="transform: translate3d(1000px, 0px, 0px);"> -->
+    <!-- <span class="glyphicon glyphicon-chevron-right" style="transform: translate3d(-800px, 0px, 0px);"> -->
+    <!-- <span class="sr-only">Next</span> -->
+  <!-- </a> --> 
+<!-- </div>
+</div>
+</div>
+</section>  -->
+<section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-centered">
+        <h2 class="title is-3">Sample Image-Caption-Music Pairs</h2>
+  <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators" style="transform: translate3d(0px, 40px, 0px);">
+      <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel1" data-slide-to="1"></li>
+      <li data-target="#myCarousel1" data-slide-to="2"></li>
+      <li data-target="#myCarousel1" data-slide-to="3"></li>
+      <li data-target="#myCarousel1" data-slide-to="4"></li>
+      <li data-target="#myCarousel1" data-slide-to="5"></li>
+    </ol>
+    <h3 align="center">Click on the play button on the image to listen to the music.
+    </h3>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+          <h2 class="title">Calm</h2>
+        <video poster="" id="steve" controls loop width="700px",height="500px">
+          <source src="./data/videos/calm/8921_1341308_label1.mp4"
+                  type="video/mp4">
+        </video>
+        <video poster="" id="steve" controls loop width="700px",height="500px">
+          <source src="./data/videos/calm/8183_24837_label1.mp4"
+                  type="video/mp4"> -->
+        </video>
+        
+      </div>
+      <div class="item">
+        <h2 class="title">Upbeat</h2>
+        <video poster="" id="steve" controls loop width="400px",height="500px">
+          <source src="./data/videos/upbeat/5782_1398101_label1.mp4"
+                  type="video/mp4">
+        </video>
+        <video poster="" id="steve" controls loop width="400px",height="500px">
+          <source src="./data/videos/upbeat/4146_1166109_label1.mp4"
+                  type="video/mp4">
+        </video>
+        
+      </div>
+      <div class="item">
+        <h2 class="title">Horror</h2>
+        <video poster="" id="steve" controls loop width="400px",height="500px">
+          <source src="./data/videos/horror/9024_1249964_label1.mp4"
+                  type="video/mp4">
+        </video>
+        <video poster="" id="steve" controls loop width="400px",height="500px">
+          <source src="./data/videos/horror/9438_1340330_label1.mp4"
+                  type="video/mp4">
+        </video>
+        
+      </div>
+      <div class="item">
+          <h2 class="title">Happy</h2>
+        <video poster="" id="steve" controls loop width="400px",height="500px">
+          <source src="./data/videos/happy/1274_1136680_label1.mp4"
+                  type="video/mp4">
+        </video>
+        <video poster="" id="steve" controls loop width="400px",height="500px">
+          <source src="./data/videos/happy/9934_1272514_label1.mp4"
+                  type="video/mp4">
+        </video>
+       
+      </div>
+      <div class="item">
+          <h2 class="title">Sad</h2>
+        <video poster="" id="steve" controls loop width="400px",height="500px">
+          <source src="./data/videos/sad/664_1365763_label1.mp4"
+                  type="video/mp4">
+        </video>
+        <video poster="" id="steve" controls loop width="400px",height="500px">
+          <source src="./data/videos/sad/668_1327467_label1.mp4"
+                  type="video/mp4">
+        </video>
+        
+      </div>
+      <div class="item">
+          <h2 class="title">Love</h2>
+        <video poster="" id="steve" controls loop width="400px",height="500px">
+          <source src="./data/videos/love/8808_1289085_label1.mp4"
+                  type="video/mp4">
+        </video>
+        <video poster="" id="steve" controls loop width="400px",height="500px">
+          <source src="./data/videos/love/2422_719782_label1.mp4"
+                  type="video/mp4">
+        </video>
+        
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel1" data-slide="prev" style="transform: translate3d(-1000px, 0px, 0px);">
+      <span class="glyphicon glyphicon-chevron-left" style="transform: translate3d(800px, 0px, 0px);"></span>
+      <!-- <span class="sr-only">Previous</span> -->
+    </a>
+    <a class="right carousel-control" href="#myCarousel1" data-slide="next" style="transform: translate3d(1000px, 0px, 0px);">
+      <span class="glyphicon glyphicon-chevron-right" style="transform: translate3d(-800px, 0px, 0px);"></span>
+      <!-- <span class="sr-only">Next</span> -->
+    </a>
+  
+  </div>
+  </div>
+  </div>
+  </section> -->
+   
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+   
+    
+    <div class="columns is-centered">
+      <div class="column is-full-width has-text-centered">
+       
+        <h2 class="title is-3">Abstract</h2>
+
+        <!-- Abstract. -->
+        <div class="content has-text-justified">
+          <p>
+            We consider and propose a new problem of retrieving audio files relevant to multimodal design document inputs comprising both textual elements and visual imagery, e.g., birthday/greeting cards. In addition to enhancing user experience, integrating audio that matches the theme/style of these inputs also helps improve the accessibility of these documents (e.g., visually impaired people can listen to the audio instead).
+            While recent work in audio retrieval exists, these methods and datasets are targeted explicitly towards natural images. However, our problem considers multimodal design documents (created by users using creative software) substantially different from a naturally clicked photograph. 
+            To this end, our first contribution is collecting and curating a new large-scale dataset called Melodic-Design (or MELON), comprising design documents representing various styles, themes, templates, illustrations, etc., paired with music audio. 
+            <!-- Given our paired image-text-audio dataset, our next contribution is a novel multimodal cross-attention audio retrieval (MMCAR) algorithm  that enables training neural networks to learn a common shared feature space across image, text, and audio dimensions. 
+            We use these learned features to demonstrate that our method outperforms existing state-of-the-art methods and produce a new reference benchmark for the research community on our new dataset. -->
+
+        </p>
+        </div>
+        <br/>
+        <!--/ Abstract. -->
+
+        
+        <!-- Overview Diagram. -->
+        <h2 class="title is-3">Overview Diagram</h2>
+        <div class="content has-text-justified">
+          <img src="./data/model_mmcar.png">
+          <p>
+            Block diagram of the proposed music retrieval model using image and text pair.  Given our paired image-text-audio dataset, we proposed a novel multimodal cross-attention audio retrieval (MMCAR) algorithm  that enables training neural networks to learn a common shared feature space across image, text, and audio dimensions. 
+            We use these learned features to demonstrate that our method outperforms existing state-of-the-art methods and produce a new reference benchmark for the research community on our new dataset.
+
+          </p>
+        </div>
+        <!--/ Overview Diagram. -->
+        <!-- Animation. -->
+        <h3 class="title is-5">Sample designed images from different mood categories</h3>
+        <div class="content has-text-justified">
+              <img src="./data/designed_documents.png" height="200px">
+              <!-- <p align="center">
+                Sample designed images from different mood categories
+              </p> -->
+            </div>
+         <!-- Animation. -->
+        
+
+      </div>
+    </div>
+    <!--/ All Stages. -->
+
+    <!--/ Animation. -->
+
+  </div>
+</section>
+
+
+<section class="section">
+       
+</br>
+    <!-- Animation. -->
+    <!-- <div class="columns is-centered">
+      <div class="column is-full-width has-text-centered">
+        <h2 class="title is-3">Other Domains</h2>
+
+  </div> -->
+</section>
+
+
+<!-- <section class="hero teaser">
+  <div class="hero-body">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-8">
+        <video id="matting-video" autoplay controls muted loop height="100%">
+          <source src="./data/videos/smoke.mp4"
+                  type="video/mp4">
+        </video>
+        <p>Wildfire Smoke</p>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="section"> -->
+  
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{singh2023mmcar,
+  title={Audio Retrieval For Multimodal Design Documents: A New Dataset And Algorithms},
+  author={Singh, Prachi and Karanam, Srikrishna and Shekhar, Sumit},
+  booktitle = {},
+  year={2023}
+}</code></pre>
+  </div>
+</section>
+
+<section class="section" id="acknowledgements">
+  <div class="container is-max-desktop content">
+        <h2 class="title">Acknowledgements</h2>
+        <p>Special thanks to <a href="">Prof. Sriram Ganapathy, LEAP lab, IISc </a>.</p>
+        <p>Website adapted from the following <a href="http://nerfies.github.io/">template</a>.</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="https://arxiv.org/pdf/2112.03051.pdf">
+        <svg class="svg-inline--fa fa-file-pdf" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M184 208c0-4.406-3.594-8-8-8S168 203.6 168 208c0 2.062 .2969 23.31 9.141 50.25C179.1 249.6 184 226.2 184 208zM256 0v128h128L256 0zM80 422.4c0 9.656 10.47 11.97 14.38 6.375C99.27 421.9 108.8 408 120.1 388.6c-14.22 7.969-27.25 17.31-38.02 28.31C80.75 418.3 80 420.3 80 422.4zM224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128zM292 312c24.26 0 44 19.74 44 44c0 24.67-18.94 44-43.13 44c-5.994 0-11.81-.9531-17.22-2.805c-20.06-6.758-38.38-15.96-54.55-27.39c-23.88 5.109-45.46 11.52-64.31 19.1c-14.43 26.31-27.63 46.15-36.37 58.41C112.1 457.8 100.8 464 87.94 464C65.92 464 48 446.1 48 424.1c0-11.92 3.74-21.82 11.18-29.51c16.18-16.52 37.37-30.99 63.02-43.05c11.75-22.83 21.94-46.04 30.33-69.14C136.2 242.4 136 208.4 136 208c0-22.05 17.95-40 40-40c22.06 0 40 17.95 40 40c0 24.1-7.227 55.75-8.938 62.63c-1.006 3.273-2.035 6.516-3.082 9.723c7.83 14.46 17.7 27.21 29.44 38.05C263.1 313.4 284.3 312.1 287.6 312H292zM156.5 354.6c17.98-6.5 36.13-11.44 52.92-15.19c-12.42-12.06-22.17-25.12-29.8-38.16C172.3 320.6 164.4 338.5 156.5 354.6zM292.9 368C299 368 304 363 304 356.9C304 349.4 298.6 344 292 344H288c-.3438 .0313-16.83 .9687-40.95 4.75c11.27 7 24.12 13.19 38.84 18.12C288 367.6 290.5 368 292.9 368z"></path></svg><!-- <i class="fas fa-file-pdf"></i> Font Awesome fontawesome.com -->
+      </a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
